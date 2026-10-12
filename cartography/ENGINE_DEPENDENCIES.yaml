@@ -1,0 +1,28 @@
+author: "Katrina Pietroniro™"
+system: "SOVRINT™"
+registry: "MASTER_ENGINE_DEPENDENCY_MAP"
+
+dependencies:
+  QLCE:
+    path: "AXIOM_PRIME/qlce/engine.py"
+
+  ResonanceMapper:
+    path: "THE_LATTICE/engines/E3_IIE/resonance_mapper.py"
+
+  ManifoldMonitor:
+    path: "THE_LATTICE/engines/E6_CME/manifold_monitor.py"
+
+  BioOversight:
+    path: "THE_LATTICE/engines/E7_CVE/bio_oversight.py"
+
+  EnergyBridge:
+    path: "THE_LATTICE/engines/E8_JLE/energy_bridge.py"
+    writes_to: "SOVRINT_REPO/ledger/vocation_capital.json"
+
+  ValidatorProtocol:
+    path: "THE_LATTICE/engines/E10_SPE/validator_protocol.py"
+    may_call: "SOVRINT_REPO/core/justice_spine.sh"
+
+  TransmutationLedger:
+    path: "THE_LATTICE/engines/transmutation_ledger.py"
+    writes_to: "THE_LATTICE/void/transmutation.json"
