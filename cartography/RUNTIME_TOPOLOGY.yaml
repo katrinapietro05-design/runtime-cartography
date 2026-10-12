@@ -1,0 +1,31 @@
+author: "Katrina Pietroniro™"
+system: "SOVRINT™"
+generated: "2026-05-29T14:56:37-04:00"
+root: "/data/data/com.termux/files/home/MASTER_SOVEREIGN_LATTICE"
+
+layers:
+  cognitive_lattice:
+    folders:
+      - "L1_CONSCIOUSNESS"
+      - "L2_INTUITION"
+      - "L3_COGNITION"
+    node_range: "Node_001 -> Node_090"
+
+  core_engine_lattice:
+    folder: "CORE_ENGINES"
+    node_range: "Node_091 -> Node_220"
+
+  lattice_runtime:
+    folder: "THE_LATTICE"
+
+  axiom_prime:
+    folder: "AXIOM_PRIME"
+
+  daily_runtime:
+    folder: "SOVRINT_DAILY_RUNTIME"
+
+  registry_layer:
+    folder: "99_REGISTRY"
+
+  script_layer:
+    folder: "scripts"
